@@ -103,7 +103,7 @@
     // ---------------------------------------------------------------------------------------------
     //      Activiting the Accelerometer after the enter trasition has finished.
     // ---------------------------------------------------------------------------------------------
-    accelerometer = [CCAcceleroMeter sharedAccelerometer];
+    accelerometer = [CCAcceleroMeter sharedAccelerometer] ;
     [accelerometer startUpdateForScene:self];
     
 }
